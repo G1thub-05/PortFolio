@@ -32,23 +32,12 @@
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-
-<br/>
-     <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
-       <img src="https://img.shields.io/badge/Gitlab--05-181717?logo=github&logoColor=white" alt="GitHub" />
-     </a> 
-     <a href="https://gitlab.com/G1tlab-05" style="text-decoration:none; border:none;">
-       <img src="https://img.shields.io/badge/GitLab--05-FC6D26?logo=gitlab&logoColor=white" alt="GitLab" />
-     </a>
-     <a href="https://linkedin.com/in/mr-digeshwar05" style="text-decoration:none; border:none;">
-       <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
-     </a>
-       <a href="mailto:Mr.Digeshwar05@gmail.com" style="text-decoration:none; border:none;">
-       <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email" />
-     </a>
-     <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
-       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
-     </a>
+<a href="https://instagram.com/mr._.digeshwar05">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
+ </a>
+<a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
+ </a>
 
 </div>
 
