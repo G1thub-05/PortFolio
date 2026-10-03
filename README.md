@@ -4,6 +4,26 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
 </a>
 
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:1E2B46,50:273A5C,100:36527C&height=260&section=header&text=𝙼𝚢%20𝙿𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"
+    alt="Portfolio Header"
+  />
+</a>
+
+
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:1E2B46,50:273A5C,100:36527C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑃𝑜𝑟𝑡𝑓𝑜𝑙𝑖𝑜%20%26%20𝑃𝑟𝑜𝑗𝑒𝑐𝑡𝑠&descAlignY=58&descSize=18"
+    alt="Digeshwar Portfolio"
+  />
+</a>
+
+
+
+
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
 </a>
