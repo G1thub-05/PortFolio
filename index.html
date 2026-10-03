@@ -1,86 +1,338 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0d0c" />
-  <meta name="description" content="Digeshwar — Java full stack developer building thoughtful, scalable web applications." />
-  <title>Digeshwar — Java Full Stack Developer</title>
+  <meta name="theme-color" content="#f7f8fa" />
+  <meta name="description"
+    content="Digeshwar — Java full stack developer building scalable backend systems and responsive web applications." />
+  <title>Digeshwar | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
 </head>
+
 <body>
-  <div class="page-noise" aria-hidden="true"></div>
-  <header class="topbar wrap">
-    <a class="brand" href="#home" aria-label="Digeshwar home"><span class="brand-mark">D<span>.</span></span><span class="brand-name">DIGESHWAR</span></a>
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#contact">Contact</a>
-    </nav>
-    <a class="availability" href="mailto:Mr.Digeshwar05@gmail.com"><span class="pulse"></span> Available for opportunities</a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#home"><span class="brand-icon"><img
+            src="https://avatars.githubusercontent.com/u/171484789?v=4&amp;size=80"
+            alt="" /></span><span>Digeshwar<small>JAVA FULL STACK DEVELOPER</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><i></i><i></i></button>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a
+          href="#skills">Skills</a><a href="#work">Projects</a><a href="#contact">Contact</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
+      <a class="header-cta resume-cta" href="resume.pdf" target="_blank" rel="noreferrer">
+        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>View resume</a>
+    </div>
   </header>
 
   <main id="home">
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span> JAVA FULL STACK DEVELOPER <span class="location">· INDIA</span></p>
-        <h1>Building the<br /><span class="serif">systems</span> behind<br />great experiences<span class="accent">.</span></h1>
-        <p class="hero-intro">I’m Digeshwar — a Java full stack developer who brings thoughtful interfaces and dependable backend systems together.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↗</span></a><a class="text-link" href="#contact">Let’s talk <span>↗</span></a></div>
-        <div class="hero-meta"><span>01 / 04</span><span class="meta-rule"></span><span>DESIGN · ENGINEERING · DELIVERY</span></div>
-      </div>
-      <div class="hero-visual">
-        <div class="portrait-frame">
-          <div class="portrait-top"><span>PROFILE / 001</span><span class="crosshair">✳</span></div>
-          <img class="portrait" src="https://avatars.githubusercontent.com/u/171484789?v=4&amp;size=600" alt="GitHub profile photo of Digeshwar" />
-          <div class="portrait-caption"><span class="caption-dot"></span><span>MR. DIGESHWAR</span><span class="caption-line"></span><span>DEVELOPER</span></div>
-          <div class="portrait-stamp">JAVA<br />FULL<br />STACK</div>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="availability"><span></span> JAVA FULL STACK DEVELOPER <i>·</i> INDIA</div>
+          <h1><span>Building web</span><span>experiences with</span><span><em>strong foundations.</em></span></h1>
+          <p class="hero-description">I’m Digeshwar, a Java Full Stack Developer focused on building reliable backend
+            systems and responsive web applications. I work with Java, Spring Boot, React, and REST APIs, with a focus
+            on clean architecture, secure authentication, and database-driven solutions.</p>
+
+          <div class="hero-actions">
+            <a class="button-primary" href="resume.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>View resume</a>
+            <a class="button-secondary" href="https://github.com/G1thub-05" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i>Explore GitHub</a>
+          </div>
+
+          <div class="hero-socials"><a href="https://github.com/G1thub-05" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub"><img class="github-mark" src="https://cdn.simpleicons.org/github/111827" alt="" /></a><a
+              href="https://www.linkedin.com/in/mr-digeshwar05" target="_blank" rel="noreferrer"
+              aria-label="LinkedIn"><span class="linkedin-mark">in</span></a><a href="mailto:Mr.Digeshwar05@gmail.com"
+              aria-label="Email"><img class="gmail-mark" src="https://www.gstatic.com/images/branding/product/1x/gmail_48dp.png" alt="" /></a><a href="https://www.instagram.com/mr._.digeshwar05" target="_blank"
+              rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram instagram-mark"
+                aria-hidden="true"></i></a></div>
         </div>
-        <div class="float-card code-card"><div class="code-head"><span class="code-dots">● ● ●</span><span>hello.java</span><span>⌘</span></div><pre><span class="code-purple">public class</span> <span class="code-yellow">Developer</span> {
-  <span class="code-purple">public static void</span> build() {
-    <span class="code-green">// make it useful</span>
-    ship(<span class="code-orange">"something great"</span>);
-  }
-}</pre></div>
-        <div class="float-card orbit-card"><span class="orbit-icon">✳</span><span>Curious by nature.<br />Precise by design.</span></div>
-        <div class="visual-index">FIG. 01 <span>·</span> BUILT WITH INTENTION</div>
+        <div class="hero-photo-wrap">
+          <div class="hero-visual" aria-label="Portrait of Digeshwar">
+            <div class="hero-orbit hero-orbit-outer"></div>
+            <div class="hero-orbit hero-orbit-inner"></div>
+            <div class="hero-dots hero-dots-top"></div>
+            <div class="hero-dots hero-dots-bottom"></div><span class="hero-orbit-point point-one"></span><span
+              class="hero-orbit-point point-two"></span>
+            <div class="hero-portrait-halo"></div><img class="hero-photo"
+              src="https://avatars.githubusercontent.com/u/171484789?v=4&amp;size=800"
+              alt="Digeshwar, Java full stack developer" />
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="ticker" aria-label="Core technologies"><div class="ticker-track"><span>JAVA</span><i>✳</i><span>SPRING BOOT</span><i>✳</i><span>REACT</span><i>✳</i><span>REST APIS</span><i>✳</i><span>MYSQL</span><i>✳</i><span>JAVA</span><i>✳</i><span>SPRING BOOT</span><i>✳</i><span>REACT</span><i>✳</i><span>REST APIS</span><i>✳</i><span>MYSQL</span><i>✳</i></div></section>
 
-    <section class="about section wrap" id="about">
-      <div class="section-label"><span>01</span><span class="label-rule"></span><span>ABOUT ME</span></div>
-      <div class="about-content"><h2>Good software feels<br />simple. <span class="serif muted">Making it that way</span><br /><span class="serif muted">takes intention.</span></h2>
-        <div class="about-text"><p>I build scalable backend systems and responsive web applications with Java, Spring Boot, React, and REST APIs. My focus is on clean architecture, secure foundations, and the small details that make a product feel effortless.</p><p>From database design to the final interface, I enjoy connecting the pieces and turning real problems into dependable software.</p><a class="arrow-link" href="https://github.com/G1thub-05" target="_blank" rel="noreferrer">More about my journey <span>↗</span></a></div>
+    <section class="about section" id="about">
+      <div class="section-inner about-inner">
+        <div class="about-layout">
+          <div class="about-portrait">
+            <div class="portrait-halo"></div>
+            <div class="portrait-ring"><img src="https://avatars.githubusercontent.com/u/171484789?v=4&amp;size=600"
+                alt="Digeshwar's profile photo" /></div>
+          </div>
+          <div class="about-content">
+            <div class="about-header">
+              <p class="eyebrow"><i></i> ABOUT ME</p>
+              <h2>Hi, I’m <span>Digeshwar</span></h2>
+              <p>Java Full Stack Developer <b>|</b> Building scalable &amp; user-friendly web applications</p>
+            </div>
+
+            <div class="about-copy">
+              <p>I’m Digeshwar, a Java Full Stack Developer focused on building reliable backend systems and responsive
+                web applications. I work with Java, Spring Boot, React, and REST APIs, with a focus on clean
+                architecture, secure authentication, and database-driven solutions.</p>
+              <p>I enjoy building applications where the backend, data, APIs, and user interface work together to create
+                practical and maintainable solutions. I’m continuously expanding my knowledge of Microservices, System
+                Design, AWS, and DevOps through hands-on development and practical projects.</p>
+            </div>
+
+            <div class="about-focus-cards">
+              <article><span class="about-card-icon blue">&lt;/&gt;</span>
+                <div>
+                  <h3>Backend Development</h3>
+                  <p>Java, Spring Boot, REST APIs</p>
+                </div>
+              </article>
+              <article><span class="about-card-icon violet">▤</span>
+                <div>
+                  <h3>Full Stack Applications</h3>
+                  <p>Connecting frontend, backend &amp; databases</p>
+                </div>
+              </article>
+              <article><span class="about-card-icon green">⬡</span>
+                <div>
+                  <h3>Secure &amp; Scalable</h3>
+                  <p>Authentication, best practices &amp; performance</p>
+                </div>
+              </article>
+              <article><span class="about-card-icon orange">🔗</span>
+                <div>
+                  <h3>Continuous Learning</h3>
+                  <p>Microservices, System Design, AWS &amp; DevOps</p>
+                </div>
+              </article>
+            </div>
+            <div class="about-bottom">
+              <div class="about-socials">
+
+                <a href="https://github.com/G1thub-05" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                  <span>🔗</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mr-digeshwar05" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <span>LinkedIn</span>
+                  <span>🔗</span>
+                </a>
+
+                <a href="mailto:Mr.Digeshwar05@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Email</span>
+                  <span>🔗</span>
+                </a>
+
+                <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-file-pdf"></i>
+                  <span>View Resume</span>
+                  <span>🔗</span>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div class="stats-row"><div><strong>01</strong><span>FULL STACK<br />PERSPECTIVE</span></div><div><strong>∞</strong><span>ROOM TO<br />KEEP LEARNING</span></div><div class="stat-note">Thoughtful code.<br />Useful outcomes.</div></div>
     </section>
 
-    <section class="expertise section" id="expertise"><div class="wrap">
-      <div class="section-label"><span>02</span><span class="label-rule"></span><span>WHAT I DO</span></div>
-      <div class="expertise-heading"><h2>From first sketch<br />to <span class="serif">final endpoint.</span></h2><p>A balanced toolkit for shipping complete, reliable products — with care at every layer.</p></div>
-      <div class="expertise-grid">
-        <article class="expertise-card"><span class="card-number">01 / BACKEND</span><div class="skill-icon">{ }</div><h3>Backend<br />engineering</h3><p>Structured, secure services designed to stay maintainable as products grow.</p><div class="chips"><span>Java</span><span>Spring Boot</span><span>REST APIs</span><span>Microservices</span></div></article>
-        <article class="expertise-card"><span class="card-number">02 / FRONTEND</span><div class="skill-icon skill-icon-alt">◩</div><h3>Frontend<br />development</h3><p>Responsive interfaces that make complex workflows feel clear and natural.</p><div class="chips"><span>React</span><span>JavaScript</span><span>HTML &amp; CSS</span><span>TypeScript</span></div></article>
-        <article class="expertise-card"><span class="card-number">03 / DATA &amp; SECURITY</span><div class="skill-icon skill-icon-green">⌘</div><h3>Data &amp;<br />security</h3><p>Thoughtful data models and authentication that protect users and their work.</p><div class="chips"><span>MySQL</span><span>MongoDB</span><span>JWT</span><span>OAuth 2.0</span></div></article>
-        <article class="expertise-card"><span class="card-number">04 / DELIVERY</span><div class="skill-icon skill-icon-orange">↗</div><h3>Build &amp;<br />delivery</h3><p>Practical tooling and a continuous improvement mindset from local build to release.</p><div class="chips"><span>Git</span><span>Docker</span><span>AWS basics</span><span>GitHub Actions</span></div></article>
+    <section class="skills section" id="skills">
+      <div class="section-inner skills-inner">
+        <div class="skills-map">
+          <div class="skills-root"><span>02 / TECHNICAL TOOLKIT</span><strong><b>MY SKILLS</b></strong></div>
+          <div class="skill-branches">
+            <article class="skill-branch">
+              <div class="skill-branch-heading"><span class="branch-icon branch-blue">▣</span>
+                <div>
+                  <h3><span>01</span> FRONTEND</h3>
+                  <p>Responsive interfaces &amp; integration</p>
+                </div>
+              </div>
+              <div class="skill-chips">
+                <span>REACT</span><span>JAVASCRIPT</span><span>TYPESCRIPT</span><span>HTML</span><span>CSS</span><span>BOOTSTRAP</span><span>TAILWIND</span>
+              </div>
+            </article>
+            <article class="skill-branch">
+              <div class="skill-branch-heading"><span class="branch-icon branch-violet">▤</span>
+                <div>
+                  <h3><span>02</span> BACKEND &amp; APIS</h3>
+                  <p>Application services &amp; secure APIs</p>
+                </div>
+              </div>
+              <div class="skill-chips"><span>JAVA</span><span>SPRING BOOT</span><span>REST APIS</span><span>SPRING
+                  SECURITY</span><span>JPA</span><span>JWT</span><span>OAUTH 2.0</span><span>MICROSERVICES</span></div>
+            </article>
+          </div>
+          <article class="skill-branch skill-foundations">
+            <div class="skill-branch-heading"><span class="branch-icon branch-green">⚒</span>
+              <div>
+                <h3><span>03</span> DATA, TOOLS &amp; DELIVERY</h3>
+                <p>Persistence, collaboration &amp; deployment fundamentals</p>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span>MYSQL</span><span>MONGODB</span><span>ORACLE</span><span>GIT</span><span>DOCKER</span><span>AWS
+                BASICS</span><span>GITHUB ACTIONS</span><span>SWAGGER</span><span>POSTMAN</span>
+            </div>
+          </article>
+          <div class="skills-learning"><span class="learning-icon" aria-hidden="true"></span>
+            <div class="learning-copy"><strong>CURRENTLY LEARNING</strong></div>
+            <div class="learning-pills"><span>Microservices architecture</span><span>System
+                design</span><span>AWS</span><span>DevOps</span></div>
+          </div>
+        </div>
       </div>
-      <div class="learning-note"><span class="learning-dot"></span><span>ALWAYS LEARNING</span><span>Currently exploring microservices, system design, AWS &amp; DevOps.</span></div>
-    </div></section>
-
-    <section class="work section wrap" id="work">
-      <div class="section-label"><span>03</span><span class="label-rule"></span><span>SELECTED WORK</span></div>
-      <div class="work-heading"><h2>Made with<br /><span class="serif">purpose.</span></h2><p>My GitHub profile is where I share what I’m learning and building. Take a look around.</p></div>
-      <a class="repo-card" href="https://github.com/G1thub-05" target="_blank" rel="noreferrer"><div class="repo-icon">GH</div><div class="repo-main"><span class="repo-kicker">OPEN SOURCE · GITHUB</span><h3>Explore my repositories <span>↗</span></h3><p>Experiments, learning projects, and the code behind my developer journey.</p></div><div class="repo-arrow">↗</div></a>
-      <p class="work-footnote">More projects are taking shape. <a href="https://github.com/G1thub-05" target="_blank" rel="noreferrer">Follow along on GitHub ↗</a></p>
     </section>
 
-    <section class="contact section" id="contact"><div class="wrap contact-wrap"><div class="section-label"><span>04</span><span class="label-rule"></span><span>GET IN TOUCH</span></div><div class="contact-main"><p class="eyebrow">HAVE A GOOD CHALLENGE?</p><h2>Let’s build<br /><span class="serif">something</span><br />that matters<span class="accent">.</span></h2><a class="contact-email" href="mailto:Mr.Digeshwar05@gmail.com">Mr.Digeshwar05@gmail.com <span>↗</span></a></div><div class="contact-side"><p>I’m open to conversations about full stack roles, collaboration, and interesting ideas.</p><a href="https://www.linkedin.com/in/mr-digeshwar05" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/G1thub-05" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://www.instagram.com/mr._.digeshwar05" target="_blank" rel="noreferrer">Instagram <span>↗</span></a></div></div></section>
+    <section class="work section" id="work">
+      <div class="work-inner">
+        <div class="work-copy-column">
+          <div class="work-heading"><span class="section-number">03</span>
+            <p class="eyebrow">CODE &amp; PROJECTS</p>
+          </div>
+          <h2>Explore my work on <span>GitHub.</span></h2>
+          <p class="work-intro">Projects, practice, and progress—explore my repositories and see what I’m building,
+            learning, and working on.</p>
+          <div class="github-feature-card">
+            <div class="github-logo" aria-hidden="true"><img src="https://cdn.simpleicons.org/github/111827" alt="" />
+              <span class="github-online-dot"></span>
+            </div>
+            <div class="github-feature-copy">
+              <p class="eyebrow">GITHUB PROFILE</p>
+              <h3>Projects, practice and <span>progress.</span></h3>
+              <p>Visit my GitHub profile to explore repositories, contributions, and the technologies I work with.</p>
+              <a href="https://github.com/G1thub-05" target="_blank" rel="noopener noreferrer" class="github-url">
+                github.com/G1thub-05 <span aria-hidden="true">🔗</span></a>
+
+            </div>
+            <div class="github-extra">
+              <div class="github-stats">
+                <div><i class="fa-regular fa-rectangle-list" aria-hidden="true"></i><span class="github-stat-copy"><strong>20+</strong><small>Repositories</small></span></div>
+                <div><i class="fa-regular fa-star" aria-hidden="true"></i><span class="github-stat-copy"><strong>50+</strong><small>Stars</small></span></div>
+                <div><i class="fa-solid fa-code-fork" aria-hidden="true"></i><span class="github-stat-copy"><strong>10+</strong><small>Forks</small></span></div>
+              </div>
+              <p class="github-tech-title">TOP TECHNOLOGIES</p>
+              <div class="github-tech-icons" aria-label="Java, Spring, HTML, CSS, JavaScript, MySQL, and Git">
+                <span><img src="https://skillicons.dev/icons?i=java&amp;theme=light" alt="Java" /></span>
+                <span><img src="https://skillicons.dev/icons?i=spring&amp;theme=light" alt="Spring" /></span>
+                <span><img src="https://skillicons.dev/icons?i=html&amp;theme=light" alt="HTML5" /></span>
+                <span><img src="https://skillicons.dev/icons?i=css&amp;theme=light" alt="CSS3" /></span>
+                <span><img src="https://skillicons.dev/icons?i=js&amp;theme=light" alt="JavaScript" /></span>
+                <span><img src="https://skillicons.dev/icons?i=mysql&amp;theme=light" alt="MySQL" /></span>
+                <span><img src="https://skillicons.dev/icons?i=git&amp;theme=light" alt="Git" /></span>
+              </div>
+            </div>
+            <a class="github-cta" href="https://github.com/G1thub-05" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github" aria-hidden="true"></i><span class="github-cta-label">Explore GitHub</span><span aria-hidden="true">🔗</span>
+            </a>
+          </div>
+        </div>
+        <div class="work-visual" aria-hidden="true"><span class="work-orbit"></span><span
+            class="work-orbit work-orbit-inner"></span><span class="work-orbit-dot"></span>
+          <span class="work-code-float">&lt;/&gt;</span>
+          <span class="work-github-tile"><img src="https://cdn.simpleicons.org/github/ffffff" alt="" /></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-intro">
+          <p class="eyebrow"><i></i> CONTACT</p>
+          <h2>Let’s create<br />something<br />useful <em>together.</em></h2>
+          <p class="contact-invite">Open to Java full stack opportunities, collaboration, and conversations about
+            building better software.</p>
+          <div class="contact-actions"><a class="contact-email-button"
+              href="mailto:Mr.Digeshwar05@gmail.com"><span>✉</span> Send an Email <b>→</b></a><a
+              class="contact-call-button" href="mailto:Mr.Digeshwar05@gmail.com?subject=Schedule%20a%20call"><span
+                class="calendar-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                  <rect x="3.5" y="5" width="17" height="16" rx="2" />
+                  <path d="M8 3.5v4M16 3.5v4M4 9.5h16" />
+                </svg></span> Schedule a Call <b>→</b></a></div>
+          <div class="contact-highlights">
+            <div><i class="fa-solid fa-bolt" aria-hidden="true"></i><span><strong>Quick Response</strong><small>Usually within 24 hours</small></span></div>
+            <div><i class="fa-solid fa-people-group" aria-hidden="true"></i><span><strong>Open to Opportunities</strong><small>Freelance | Full-time</small></span></div>
+            <div><i class="fa-solid fa-handshake" aria-hidden="true"></i><span><strong>Let’s Collaborate</strong><small>Build something great</small></span></div>
+          </div>
+        </div><svg class="contact-flight" viewBox="0 0 260 170" aria-hidden="true">
+          <path d="M130 125c32 0 29-36 62-48 23-8 27 13 43-4 10-11 13-29-2-36" />
+          <path class="flight-plane" d="m233 37 23-10-8 24-5-9-10-5Z" />
+        </svg>
+        <div class="contact-decoration" aria-hidden="true"><span class="contact-decoration-orbit"></span><span class="contact-decoration-dots"></span><span class="contact-decoration-bubble">•••</span></div>
+        <div class="contact-copy">
+          <span class="contact-talk-pill">Let’s Talk!</span>
+          <div class="contact-email-row"><span class="contact-mail-icon">✉</span>
+            <div>
+              <p class="eyebrow">DROP A MESSAGE</p><a class="contact-email"
+                href="mailto:Mr.Digeshwar05@gmail.com">Mr.Digeshwar05@gmail.com <span>🔗</span></a>
+              <p class="contact-response">I usually respond within 24 hours.</p>
+            </div>
+          </div>
+          <p class="contact-social-title">CONNECT WITH ME</p>
+          <div class="contact-social-cards"><a href="https://www.linkedin.com/in/mr-digeshwar05" target="_blank"
+              rel="noreferrer"><b class="linkedin-icon">in</b><span><strong>LinkedIn <i>🔗</i></strong><small>Let’s
+                  connect</small></span></a><a href="https://github.com/G1thub-05" target="_blank" rel="noreferrer"><b
+                class="github-icon"><img src="https://cdn.simpleicons.org/github/111827"
+                  alt="" /></b><span><strong>GitHub <i>🔗</i></strong><small>See my work</small></span></a><a
+              href="https://www.instagram.com/mr._.digeshwar05" target="_blank" rel="noreferrer"><b
+                class="instagram-icon"><i class="fa-brands fa-instagram"
+                  aria-hidden="true"></i></b><span><strong>Instagram <i>🔗</i></strong><small>Follow
+                  updates</small></span></a><a href="resume.pdf" target="_blank" rel="noreferrer"><b
+                class="resume-icon"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></b><span><strong>View
+                  Resume</strong><small>Open PDF</small></span></a></div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="footer wrap"><a class="brand" href="#home"><span class="brand-mark">D<span>.</span></span><span class="brand-name">DIGESHWAR</span></a><span>DESIGNED &amp; BUILT WITH INTENTION</span><a href="#home">BACK TO TOP ↑</a><span>© <span id="year">2026</span> DIGESHWAR</span></footer>
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-icon"><img src="https://avatars.githubusercontent.com/u/171484789?v=4&amp;size=80"
+          alt="" /></span>
+      <span>Digeshwar<small>JAVA FULL STACK DEVELOPER</small></span>
+    </a>
+    <div class="footer-credit">
+      <span class="footer-code-mark" aria-hidden="true">&lt;/&gt;</span>
+      <span class="footer-credit-text">Designed &amp; built with <b>care.</b></span>
+    </div>
+    <div class="footer-actions">
+      <a class="footer-top-link" href="#home"><span aria-hidden="true">↑</span> Back to top</a>
+      <nav class="footer-socials" aria-label="Social links">
+        <a href="https://github.com/G1thub-05" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mr-digeshwar05" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:Mr.Digeshwar05@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </nav>
+      <span class="footer-copyright">© <b id="year">2026</b></span>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
+
 </html>
