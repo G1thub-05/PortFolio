@@ -33,7 +33,7 @@
 </a>
 
 <a href="https://instagram.com/mr._.digeshwar05">
-  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/Instagram-D14836?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
  </a>
 <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
   <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
