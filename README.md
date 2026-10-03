@@ -12,7 +12,6 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Portfolio;Java+Full+Stack+Developer;Building+Clean+and+Responsive+Web+Experiences;HTML+%7C+CSS+%7C+JavaScript;Learn+%7C+Build+%7C+Improve+%7C+Repeat" alt="Typing SVG"/>
 
-<br/>
 
 <a href="https://github.com/G1thub-05">
   <img src="https://img.shields.io/badge/G1thub--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
