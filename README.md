@@ -150,35 +150,10 @@ Open `index.html` directly in your browser.
 
 For development, you can also open the project in **Visual Studio Code** and use the **Live Server** extension.
 
----
 
-## 🌍 Deployment
-
-This portfolio is deployed using **GitHub Pages**.
-
-Every time changes are pushed to the configured `main` branch, GitHub Pages can publish the updated static website.
-
-**Live URL:**
-
-```text
-https://g1thub-05.github.io/PortFolio/
 ```
 
----
-
-## 🔮 Future Improvements
-
-- Add more portfolio projects and detailed case studies
-- Improve accessibility and semantic HTML
-- Add more advanced JavaScript interactions
-- Add a backend-powered contact form
-- Add project filtering and search
-- Improve performance and SEO
-- Add additional responsive UI enhancements
-
----
-
-## 📫 Connect With Me
+### 📫 Connect With Me
 
 <div align="center">
 
@@ -200,15 +175,8 @@ https://g1thub-05.github.io/PortFolio/
 
 <div align="center">
 
-### ⭐ If you find this portfolio useful, feel free to explore the repository.
 
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer" width="100%"/>
 
 </div>
-'''
-
-path = "/mnt/data/README_Portfolio_Styled.md"
-Path(path).write_text(readme, encoding="utf-8")
-print(path)
