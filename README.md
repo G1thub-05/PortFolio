@@ -22,8 +22,9 @@
   <img src="https://img.shields.io/badge/GitHub-G1thub--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
+
 <a href="https://gitlab.com/G1tlab-05">
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
+  <img src="https://img.shields.io/badge/GitLab-Gitlab--05-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
 </a>
 
 <a href="https://linkedin.com/in/mr-digeshwar05">
