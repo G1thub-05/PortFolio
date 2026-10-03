@@ -11772,6 +11772,69 @@ html[data-theme="dark"] .skill-foundations::before {
 html[data-theme="dark"] .skills-learning {
 	border-top: 1px solid #59677f !important;
 }
+html[data-theme="dark"] .skills-learning {
+	border-top: 0 !important;
+}
+html[data-theme="dark"] .skills-learning::before {
+	content: "" !important;
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: auto;
+	width: 90vw;
+	height: 1px;
+	z-index: 5;
+	transform: translateX(-50%);
+	background: #7183a5 !important;
+}
+
+/* Keep the three skill-map dividers the same centered width. */
+.skill-branches::before {
+	left: 50%;
+	right: auto;
+	width: min(94vw, 1490px);
+	transform: translateX(-50%);
+}
+.skill-foundations {
+	position: relative;
+	border-top: 0 !important;
+}
+.skill-foundations::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: min(94vw, 1490px);
+	height: 1px;
+	background: #879bbc;
+	transform: translateX(-50%);
+}
+.skills-learning {
+	border-top: 0 !important;
+}
+.skills-learning::before,
+html[data-theme="dark"] .skills-learning::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: auto;
+	width: min(94vw, 1490px);
+	height: 1px;
+	background: #879bbc;
+	transform: translateX(-50%);
+}
+html[data-theme="dark"] .skill-foundations::after {
+	background: #7183a5;
+}
+html[data-theme="dark"] .skill-foundations {
+	border-top: 0 !important;
+}
+html[data-theme="dark"] .skills-learning {
+	border-top: 0 !important;
+}
 html[data-theme="dark"] .learning-copy {
 	border-right-color: #ffffff24;
 }
@@ -11915,4 +11978,8 @@ html[data-theme="dark"] .hero-socials .github-mark {
 }
 html[data-theme="dark"] .hero-socials .gmail-mark {
 	filter: none;
+}
+/* Keep only the full-width pseudo-element divider in dark mode. */
+html[data-theme="dark"] .skills-learning {
+	border-top: 0 !important;
 }
