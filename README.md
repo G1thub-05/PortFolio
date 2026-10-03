@@ -150,8 +150,22 @@ Open `index.html` directly in your browser.
 
 For development, you can also open the project in **Visual Studio Code** and use the **Live Server** extension.
 
+---
 
+## 🌍 Deployment
+
+This portfolio is deployed using **GitHub Pages**.
+
+Every time changes are pushed to the configured `main` branch, GitHub Pages can publish the updated static website.
+
+**Live URL:**
+
+```text
+https://g1thub-05.github.io/PortFolio/
 ```
+
+---
+
 
 ### 📫 Connect With Me
 
@@ -171,12 +185,8 @@ For development, you can also open the project in **Visual Studio Code** and use
 
 </div>
 
----
 
 <div align="center">
 
-
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer" width="100%"/>
-
 </div>
