@@ -1,39 +1,82 @@
 from pathlib import Path
 
-readme = r'''<div align="center">
+svg = r'''<svg width="1600" height="330" viewBox="0 0 1600 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18253D"/>
+      <stop offset="1" stop-color="#35527F"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#AFC8F4" stroke-opacity="0.08"/>
+    </pattern>
+    <linearGradient id="name" x1="270" y1="180" x2="560" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A9C7FF"/>
+    </linearGradient>
+  </defs>
 
-<!-- Header -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
-</a>
+  <rect x="2" y="2" width="1596" height="326" rx="20" fill="url(#bg)"/>
+  <rect x="2" y="2" width="1596" height="326" rx="20" fill="url(#grid)"/>
 
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
-</a>
+  <!-- subtle border -->
+  <rect x="2" y="2" width="1596" height="326" rx="20" stroke="#4B6792" stroke-opacity="0.45" stroke-width="2"/>
+
+  <!-- left content -->
+  <text x="62" y="112"
+        fill="#BBD1F5"
+        font-family="Courier New, monospace"
+        font-size="18"
+        font-weight="600"
+        letter-spacing="5">JAVA FULL STACK DEVELOPER</text>
+
+  <text x="62" y="188"
+        fill="#FFFFFF"
+        font-family="Inter, Arial, sans-serif"
+        font-size="54"
+        font-weight="700">Hey, I’m</text>
+
+  <text x="334" y="188"
+        fill="url(#name)"
+        font-family="Inter, Arial, sans-serif"
+        font-size="54"
+        font-weight="700">Digeshwar</text>
+
+  <circle cx="616" cy="177" r="7" fill="#7AD9C8"/>
+
+  <text x="62" y="236"
+        fill="#C7D6EF"
+        font-family="Inter, Arial, sans-serif"
+        font-size="23"
+        font-weight="400">Building scalable systems &amp; thoughtful web experiences.</text>
+
+  <!-- code decoration -->
+  <g fill="#A9C8F4" fill-opacity="0.26"
+     font-family="Courier New, monospace" font-weight="700">
+    <text x="1430" y="150" font-size="112">{</text>
+    <text x="1510" y="212" font-size="112">}</text>
+    <text x="1395" y="268" font-size="112">/</text>
+    <text x="1475" y="280" font-size="112">}</text>
+  </g>
+
+  <circle cx="1465" cy="221" r="13" fill="#A9CFFF"/>
+</svg>
+'''
+
+header_path = "/mnt/data/portfolio-header.svg"
+Path(header_path).write_text(svg, encoding="utf-8")
+
+readme_header = r'''<div align="center">
+
+<img src="./portfolio-header.svg" width="100%" alt="Digeshwar - Java Full Stack Developer"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Portfolio;Java+Full+Stack+Developer;Building+Clean+and+Responsive+Web+Experiences;HTML+%7C+CSS+%7C+JavaScript;Learn+%7C+Build+%7C+Improve+%7C+Repeat" alt="Typing SVG"/>
-
-<br/><br/>
+<a href="https://g1thub-05.github.io/PortFolio/">
+  <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Website-0072ff?style=for-the-badge" alt="Live Portfolio"/>
+</a>
 
 <a href="https://github.com/G1thub-05">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://gitlab.com/G1tlab-05">
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
-</a>
-<a href="https://linkedin.com/in/mr-digeshwar05">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:Mr.Digeshwar05@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<br/><br/>
-
-<a href="https://g1thub-05.github.io/PortFolio/">
-  <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Website-0072ff?style=for-the-badge" alt="Live Portfolio"/>
 </a>
 
 </div>
@@ -42,173 +85,64 @@ readme = r'''<div align="center">
 
 ## 👨‍💻 About Me
 
-<div align="justify">
+I am a **Java Full Stack Developer** focused on building clean, responsive, and user-friendly web applications.
 
-I am a **Java Full Stack Developer** interested in building clean, responsive, and user-friendly web applications. This repository contains my personal portfolio website, created to present my professional profile, technical skills, projects, and contact information in one place.
-
-The portfolio is built as a lightweight **frontend-only website using HTML, CSS, and JavaScript** and is deployed using **GitHub Pages**.
-
-</div>
-
----
+This repository contains my personal portfolio website built with **HTML, CSS, and JavaScript** and deployed using **GitHub Pages**.
 
 ## 🌐 Live Portfolio
 
-<div align="center">
-
-### 🚀 [View My Portfolio](https://g1thub-05.github.io/PortFolio/)
-
-</div>
-
----
-
-## 📌 About This Project
-
-This project is my personal developer portfolio website.
-
-The website is designed to give visitors a quick overview of:
-
-- 👨‍💻 My professional profile
-- 🛠️ Technical skills
-- 📂 Projects and work
-- 🎓 Education
-- 💼 Professional information
-- 📞 Contact and social profiles
-
----
-
-## ✨ Features
-
-- 📱 Responsive design
-- 🎨 Modern and clean UI
-- 🧭 Navigation between portfolio sections
-- ⚡ JavaScript-based interactions
-- 📂 Project showcase
-- 🛠️ Skills and technology section
-- 📞 Contact section
-- 🔗 Social media and professional profile links
-- 🌐 GitHub Pages deployment
-- 💻 Works directly in modern web browsers
-
----
+**https://g1thub-05.github.io/PortFolio/**
 
 ## 🧰 Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript&perline=10" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
+<img src="https://skillicons.dev/icons?i=html,css,javascript&perline=10"/>
 
 </div>
 
----
+## ✨ Features
+
+- 📱 Responsive design
+- 🎨 Modern UI
+- ⚡ JavaScript interactions
+- 📂 Project showcase
+- 🛠️ Skills section
+- 📞 Contact section
+- 🌐 GitHub Pages deployment
 
 ## 📁 Project Structure
 
 ```text
 PortFolio/
-│
 ├── index.html
 ├── css/
-│   └── style.css
 ├── js/
-│   └── script.js
 ├── images/
-│   └── ...
+├── portfolio-header.svg
 └── README.md
 ```
 
-> If your actual CSS/JS/image folder names are different, update this section to match the repository structure.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
+## 🚀 Run Locally
 
 ```bash
 git clone https://github.com/G1thub-05/PortFolio.git
-```
-
-### 2. Open the project
-
-```bash
 cd PortFolio
 ```
 
-### 3. Run the website
-
-Open `index.html` directly in your browser.
-
-For development, you can also open the project in **Visual Studio Code** and use the **Live Server** extension.
-
----
-
-## 🌍 Deployment
-
-This portfolio is deployed using **GitHub Pages**.
-
-Every time changes are pushed to the configured `main` branch, GitHub Pages can publish the updated static website.
-
-**Live URL:**
-
-```text
-https://g1thub-05.github.io/PortFolio/
-```
-
----
-
-## 🔮 Future Improvements
-
-- Add more portfolio projects and detailed case studies
-- Improve accessibility and semantic HTML
-- Add more advanced JavaScript interactions
-- Add a backend-powered contact form
-- Add project filtering and search
-- Improve performance and SEO
-- Add additional responsive UI enhancements
-
----
-
-## 📫 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/G1thub-05">
-  <img src="https://img.shields.io/badge/GitHub-G1thub--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-<a href="https://linkedin.com/in/mr-digeshwar05">
-  <img src="https://img.shields.io/badge/LinkedIn-mr--digeshwar05-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<a href="mailto:Mr.Digeshwar05@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Mr.Digeshwar05-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-</div>
+Open `index.html` in your browser, or use VS Code with Live Server.
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this portfolio useful, feel free to explore the repository.
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer" width="100%"/>
+⭐ **Thanks for visiting my portfolio!**
 
 </div>
 '''
 
-path = "/mnt/data/README_Portfolio_Styled.md"
-Path(path).write_text(readme, encoding="utf-8")
-print(path)
+readme_path = "/mnt/data/README_with_custom_header.md"
+Path(readme_path).write_text(readme_header, encoding="utf-8")
+
+print(header_path)
+print(readme_path)
