@@ -38,15 +38,7 @@
 
 <div align="justify">
 
-I am a **Java Full Stack Developer** interested in building clean, responsive, and user-friendly web applications. This repository contains my personal portfolio website, created to present my professional profile, technical skills, projects, and contact information in one place.
-
-The portfolio is built as a lightweight **frontend-only website using HTML, CSS, and JavaScript** and is deployed using **GitHub Pages**.
-
-</div>
-
----
-
-### 🌐 Live Portfolio
+I am a **Java Full Stack Developer** interested in building clean, responsive, and user-friendly web applications. This repository contains my personal portfolio website, created to showcase my professional profile, technical skills, projects, and contact information in one place. The portfolio is a lightweight **frontend website built using HTML, CSS, and JavaScript**, with a focus on responsive design, clean UI, and interactive user experiences.
 
 <div align="center">
 <a href="https://g1thub-05.github.io/PortFolio/">
@@ -55,111 +47,7 @@ The portfolio is built as a lightweight **frontend-only website using HTML, CSS,
 
 </div>
 
----
 
-## 📌 About This Project
-
-This project is my personal developer portfolio website.
-
-The website is designed to give visitors a quick overview of:
-
-- 👨‍💻 My professional profile
-- 🛠️ Technical skills
-- 📂 Projects and work
-- 🎓 Education
-- 💼 Professional information
-- 📞 Contact and social profiles
-
----
-
-## ✨ Features
-
-- 📱 Responsive design
-- 🎨 Modern and clean UI
-- 🧭 Navigation between portfolio sections
-- ⚡ JavaScript-based interactions
-- 📂 Project showcase
-- 🛠️ Skills and technology section
-- 📞 Contact section
-- 🔗 Social media and professional profile links
-- 🌐 GitHub Pages deployment
-- 💻 Works directly in modern web browsers
-
----
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,javascript&perline=10" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
-
-</div>
-
----
-
-## 📁 Project Structure
-
-```text
-PortFolio/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── ...
-└── README.md
-```
-
-> If your actual CSS/JS/image folder names are different, update this section to match the repository structure.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/G1thub-05/PortFolio.git
-```
-
-### 2. Open the project
-
-```bash
-cd PortFolio
-```
-
-### 3. Run the website
-
-Open `index.html` directly in your browser.
-
-For development, you can also open the project in **Visual Studio Code** and use the **Live Server** extension.
-
----
-
-## 🌍 Deployment
-
-This portfolio is deployed using **GitHub Pages**.
-
-Every time changes are pushed to the configured `main` branch, GitHub Pages can publish the updated static website.
-
-**Live URL:**
-
-```text
-https://g1thub-05.github.io/PortFolio/
-```
-
----
 
 <div align="center">
 
