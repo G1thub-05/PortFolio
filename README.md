@@ -1,6 +1,20 @@
-from pathlib import Path
+<div align="center">
 
-readme = r'''<div align="center">
+<div align="center">
+
+<a href="https://github.com/G1thub-05">
+  <img src="https://img.shields.io/badge/GitHub-G1thub--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+  <img src="https://img.shields.io/badge/LinkedIn-mr--digeshwar05-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Mr.Digeshwar05-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+</div>
 
 <!-- Header -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
@@ -165,26 +179,6 @@ https://g1thub-05.github.io/PortFolio/
 ```
 
 ---
-
-
-### 📫 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/G1thub-05">
-  <img src="https://img.shields.io/badge/GitHub-G1thub--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-<a href="https://linkedin.com/in/mr-digeshwar05">
-  <img src="https://img.shields.io/badge/LinkedIn-mr--digeshwar05-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<a href="mailto:Mr.Digeshwar05@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Mr.Digeshwar05-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-</div>
-
 
 <div align="center">
 
