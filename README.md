@@ -57,7 +57,7 @@ I am a **Java Full Stack Developer** interested in building clean, responsive, a
   <a href="https://github.com/G1thub-05#gh-light-mode-only">
     <img
       width="100%"
-      src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"
       alt="Footer"
     />
   </a>
@@ -66,7 +66,7 @@ I am a **Java Full Stack Developer** interested in building clean, responsive, a
   <a href="https://github.com/G1thub-05#gh-dark-mode-only">
     <img
       width="100%"
-      src="https://capsule-render.vercel.app/api?type=waving&color=0:1E2B46,50:273A5C,100:36527C&height=120&section=footer"
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"
       alt="Footer"
     />
   </a>
