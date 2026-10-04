@@ -11775,6 +11775,124 @@ html[data-theme="dark"] .skills-learning {
 html[data-theme="dark"] .skills-learning {
 	border-top: 0 !important;
 }
+
+/* Mobile layout corrections: predictable reading order, controls, and section spacing. */
+@media (max-width: 600px) {
+	.about-layout {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: stretch;
+		gap: 24px;
+	}
+	.about-content {
+		order: 1;
+		width: 100%;
+	}
+	.about-portrait {
+		order: 2;
+		width: 100%;
+		margin: 4px auto 0;
+	}
+	.header .menu-toggle {
+		flex: 0 0 36px;
+		margin: 0 8px 0 4px;
+		padding: 8px;
+	}
+	.header .theme-toggle {
+		flex: 0 0 38px;
+		width: 38px;
+		height: 38px;
+		margin: 0 10px 0 8px;
+	}
+	.header .nav-links {
+		top: calc(100% + 8px);
+		left: 12px;
+		right: 12px;
+		z-index: 1100;
+		gap: 4px;
+		padding: 12px;
+		border: 1px solid #dce5f2;
+		border-radius: 16px;
+		background: #fff;
+		box-shadow: 0 16px 36px #14294a24;
+	}
+	.header .nav-links a {
+		display: block;
+		width: 100%;
+		padding: 11px 12px;
+		border-radius: 10px;
+		color: #192943;
+		font-size: 15px;
+		line-height: 1.35;
+	}
+	.skill-foundations {
+		position: relative;
+		width: 100%;
+		margin: 22px 0 0 !important;
+		padding: 20px 0 12px !important;
+		border-top: 0 !important;
+		border-bottom: 0 !important;
+	}
+	.skill-foundations::after {
+		display: none !important;
+	}
+	.skills-learning {
+		position: relative;
+		display: flex !important;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		gap: 9px;
+		width: 100%;
+		margin: 18px auto 0 !important;
+		padding: 22px 8px 0 !important;
+		border: 0 !important;
+	}
+	.skills-learning::before {
+		top: 0 !important;
+		width: 100% !important;
+	}
+	.skills-learning .learning-icon {
+		display: block !important;
+		width: 13px;
+		height: 13px;
+		flex: 0 0 13px;
+		margin: 0 0 0 1px;
+	}
+	.skills-learning .learning-copy {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		border: 0 !important;
+	}
+	.skills-learning .learning-copy strong {
+		font-size: 12px;
+		line-height: 1.4;
+		letter-spacing: 1.2px;
+	}
+	.skills-learning .learning-pills {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 8px 12px;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+html[data-theme="dark"] .header .nav-links {
+	background: #0b0b0b !important;
+	border-color: #ffffff24 !important;
+	box-shadow: 0 16px 36px #000000b8 !important;
+}
+html[data-theme="dark"] .header .nav-links a {
+	color: #f3f4f6 !important;
+}
+html[data-theme="dark"] .header .nav-links a:hover,
+html[data-theme="dark"] .header .nav-links a:focus-visible {
+	background: #ffffff12;
+	color: #fff !important;
+}
 html[data-theme="dark"] .skills-learning::before {
 	content: "" !important;
 	display: block !important;
@@ -11982,4 +12100,186 @@ html[data-theme="dark"] .hero-socials .gmail-mark {
 /* Keep only the full-width pseudo-element divider in dark mode. */
 html[data-theme="dark"] .skills-learning {
 	border-top: 0 !important;
+}
+
+/* Final mobile overrides for the requested layout fixes. */
+@media (max-width: 600px) {
+	.about-layout { display: flex !important; flex-direction: column !important; align-items: stretch; gap: 24px; }
+	.about-content { order: 1; width: 100%; }
+	.about-portrait { order: 2; width: 100%; margin: 4px auto 0; }
+	.header .menu-toggle { flex: 0 0 36px; margin: 0 8px 0 4px; padding: 8px; }
+	.header .theme-toggle { flex: 0 0 38px; width: 38px; height: 38px; margin: 0 10px 0 8px; }
+	.header .nav-links {
+		top: calc(100% + 8px); left: 12px; right: 12px; z-index: 1100;
+		gap: 4px; padding: 12px; border: 1px solid #dce5f2; border-radius: 16px;
+		background: #fff; box-shadow: 0 16px 36px #14294a24;
+	}
+	.header .nav-links a { display: block; width: 100%; padding: 11px 12px; border-radius: 10px; color: #192943; font-size: 15px; line-height: 1.35; }
+	.skill-foundations { position: relative; width: 100%; margin: 22px 0 0 !important; padding: 20px 0 12px !important; border: 0 !important; }
+	.skill-foundations::after { display: none !important; }
+	.skills-learning {
+		position: relative; display: flex !important; flex-direction: column; align-items: flex-start;
+		justify-content: flex-start; gap: 9px; width: 100%; margin: 18px auto 0 !important;
+		padding: 22px 8px 0 !important; border: 0 !important;
+	}
+	.skills-learning::before { top: 0 !important; width: 100% !important; }
+	.skills-learning .learning-icon { display: block !important; width: 13px; height: 13px; flex: 0 0 13px; margin: 0 0 0 1px; }
+	.skills-learning .learning-copy { width: 100%; margin: 0; padding: 0; border: 0 !important; }
+	.skills-learning .learning-copy strong { font-size: 12px; line-height: 1.4; letter-spacing: 1.2px; }
+	.skills-learning .learning-pills { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px 12px; width: 100%; margin: 0; }
+}
+html[data-theme="dark"] .header .nav-links { background: #090909 !important; border-color: #ffffff24 !important; box-shadow: 0 16px 36px #000000b8 !important; }
+html[data-theme="dark"] .header .nav-links a { color: #f3f4f6 !important; }
+html[data-theme="dark"] .header .nav-links a:hover,
+html[data-theme="dark"] .header .nav-links a:focus-visible { background: #ffffff12; color: #fff !important; }
+html[data-theme="dark"] .skills-learning { border-top: 0 !important; }
+html[data-theme="dark"] .skills-learning::before { background: #7183a5 !important; }
+/* Keep the header pinned through the full document and refine mobile skill rows. */
+.header {
+	position: sticky !important;
+	top: 0 !important;
+	margin-top: 0 !important;
+}
+@media (max-width: 600px) {
+	.skill-branches > .skill-branch:nth-child(2) {
+		position: relative;
+		margin-top: 8px !important;
+		padding-top: 18px !important;
+		border-top: 1px solid #d7e1ef !important;
+	}
+	html[data-theme="dark"] .skill-branches > .skill-branch:nth-child(2) {
+		border-top-color: #7183a5 !important;
+	}
+	.skills-learning {
+		display: grid !important;
+		grid-template-columns: 13px minmax(0, 1fr);
+		align-items: center !important;
+		column-gap: 10px !important;
+		row-gap: 10px !important;
+	}
+	.skills-learning .learning-icon {
+		grid-column: 1;
+		grid-row: 1;
+		margin: 0 !important;
+	}
+	.skills-learning .learning-copy {
+		grid-column: 2;
+		grid-row: 1;
+		width: auto !important;
+	}
+	.skills-learning .learning-pills {
+		grid-column: 1 / -1;
+		grid-row: 2;
+	}
+}
+@media (max-width: 600px) {
+	.skill-foundations::after {
+		display: block !important;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: calc(100vw - 32px);
+		transform: translateX(-50%);
+		background: #d5e0f0;
+	}
+}
+html[data-theme="dark"] .skill-foundations::after { background: #7183a5 !important; }
+@media (max-width: 600px) {
+	.skill-branches::before,
+	.skill-branches::after { display: none !important; }
+	.skill-branch { border-bottom: 0 !important; }
+	.skill-foundations {
+		margin-top: 4px !important;
+		padding-top: 12px !important;
+	}
+	.skills-learning {
+		margin-top: 10px !important;
+		padding-top: 16px !important;
+		gap: 5px !important;
+	}
+	.skills-learning .learning-copy { margin: 0 !important; }
+	.skills-learning .learning-pills { margin-top: 2px !important; }
+	.skills-learning::before {
+		content: "" !important;
+		display: block !important;
+		position: absolute !important;
+		top: 0 !important;
+		left: 50% !important;
+		width: 100% !important;
+		height: 1px !important;
+		border: 0 !important;
+		background: #879bbc !important;
+		transform: translateX(-50%) !important;
+	}
+}
+html[data-theme="dark"] .skills-learning::before { background: #7183a5 !important; }
+
+/* Keep the header pinned through the full document and refine mobile skill rows. */
+.header {
+	position: sticky !important;
+	top: 0 !important;
+	margin-top: 0 !important;
+}
+@media (max-width: 600px) {
+	.skill-branches > .skill-branch:nth-child(2) {
+		position: relative;
+		margin-top: 8px !important;
+		padding-top: 18px !important;
+		border-top: 1px solid #d7e1ef !important;
+	}
+	html[data-theme="dark"] .skill-branches > .skill-branch:nth-child(2) {
+		border-top-color: #7183a5 !important;
+	}
+	.skills-learning {
+		display: grid !important;
+		grid-template-columns: 13px minmax(0, 1fr);
+		align-items: center !important;
+		column-gap: 10px !important;
+		row-gap: 10px !important;
+	}
+	.skills-learning .learning-icon {
+		grid-column: 1;
+		grid-row: 1;
+		margin: 0 !important;
+	}
+	.skills-learning .learning-copy {
+		grid-column: 2;
+		grid-row: 1;
+		width: auto !important;
+	}
+	.skills-learning .learning-pills {
+		grid-column: 1 / -1;
+		grid-row: 2;
+	}
+}
+
+/* Compact the mobile skills connector and close its gap to the first branch. */
+@media (max-width: 600px) {
+	.skills.section {
+		padding-top: 4px !important;
+	}
+	.skills-root {
+		margin-bottom: 30px !important;
+	}
+	.skills-root::after {
+		top: 100% !important;
+		height: 30px !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.skill-branches { gap: 12px !important; }
+	.skill-branches > .skill-branch:first-child { padding-bottom: 8px !important; }
+	.skill-branches > .skill-branch:nth-child(2) {
+		margin-top: 0 !important;
+		padding-top: 8px !important;
+	}
+}
+
+/* Justify the project intro copy on narrow screens. */
+@media (max-width: 600px) {
+	.work-intro {
+		text-align: justify !important;
+		text-justify: inter-word;
+	}
 }
