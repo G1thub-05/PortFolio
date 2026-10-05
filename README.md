@@ -3,13 +3,14 @@
 <!-- ==================== HEADER ==================== -->
 
 <picture>
-  <!-- Dark Mode -->
+
+  <!-- Dark Mode - Blue / Purple -->
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙼𝚢%20𝙿𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑟𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"
+    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙼𝚢%20𝙿𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"
   />
 
-  <!-- Light Mode -->
+  <!-- Light Mode - Red / Pink -->
   <source
     media="(prefers-color-scheme: light)"
     srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙼𝚢%20𝙿𝚘𝚛𝚝𝚏𝚘𝚕𝚒𝚘&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"
@@ -27,7 +28,7 @@
 
 <br/>
 
-<!-- ==================== TYPING ==================== -->
+<!-- ==================== TYPING SVG ==================== -->
 
 <img
   src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Portfolio;Java+Full+Stack+Developer;Building+Clean+and+Responsive+Web+Experiences;HTML+%7C+CSS+%7C+JavaScript;Learn+%7C+Build+%7C+Improve+%7C+Repeat"
@@ -106,13 +107,13 @@ I am a **Java Full Stack Developer** interested in building clean, responsive, a
 
 <picture>
 
-  <!-- Dark Mode Footer -->
+  <!-- Dark Mode Footer - Blue / Purple -->
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"
   />
 
-  <!-- Light Mode Footer -->
+  <!-- Light Mode Footer - Red / Pink -->
   <source
     media="(prefers-color-scheme: light)"
     srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"
