@@ -1,3 +1,59 @@
+async function getGithubStats() {
+	const username = "G1thub-05";
+
+	try {
+		// Fetch public repositories
+		const response = await fetch(
+			`https://api.github.com/users/${username}/repos?per_page=100`,
+		);
+
+		if (!response.ok) {
+			throw new Error("Failed to fetch repositories");
+		}
+
+		const repos = await response.json();
+
+		// Total repositories
+		document.getElementById("github-repos").textContent = repos.length;
+
+		// Total stars
+		const totalStars = repos.reduce(
+			(total, repo) => total + repo.stargazers_count,
+			0,
+		);
+
+		document.getElementById("github-stars").textContent = totalStars;
+
+		// Total commits across default branches
+		let totalCommits = 0;
+
+		for (const repo of repos) {
+			const commitResponse = await fetch(
+				`https://api.github.com/repos/${username}/${repo.name}/commits?per_page=1`,
+			);
+
+			if (!commitResponse.ok) continue;
+
+			const linkHeader = commitResponse.headers.get("Link");
+
+			if (linkHeader) {
+				const lastPage = linkHeader.match(/[?&]page=(\d+)>;\s*rel="last"/);
+
+				totalCommits += lastPage ? Number(lastPage[1]) : 1;
+			} else {
+				const commits = await commitResponse.json();
+				totalCommits += commits.length;
+			}
+		}
+
+		document.getElementById("github-commits").textContent = totalCommits;
+	} catch (error) {
+		console.error("GitHub Stats Error:", error);
+	}
+}
+
+getGithubStats();
+
 const menuButton = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".nav-links");
 menuButton.addEventListener("click", () => {
@@ -72,9 +128,14 @@ const setTheme = (theme) => {
 	document.documentElement.dataset.theme = theme;
 	const darkMode = theme === "dark";
 	themeIcon.className = `fa-solid ${darkMode ? "fa-sun" : "fa-moon"}`;
-	themeToggle.setAttribute("aria-label", `Switch to ${darkMode ? "light" : "dark"} mode`);
+	themeToggle.setAttribute(
+		"aria-label",
+		`Switch to ${darkMode ? "light" : "dark"} mode`,
+	);
 	themeToggle.title = `Switch to ${darkMode ? "light" : "dark"} mode`;
-	document.querySelector('meta[name="theme-color"]').content = darkMode ? "#0b1220" : "#f7f8fa";
+	document.querySelector('meta[name="theme-color"]').content = darkMode
+		? "#0b1220"
+		: "#f7f8fa";
 };
 
 let savedTheme = "light";
@@ -84,10 +145,10 @@ try {
 setTheme(savedTheme === "dark" ? "dark" : "light");
 
 themeToggle.addEventListener("click", () => {
-	const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+	const nextTheme =
+		document.documentElement.dataset.theme === "dark" ? "light" : "dark";
 	setTheme(nextTheme);
 	try {
 		localStorage.setItem("portfolio-theme", nextTheme);
 	} catch {}
 });
-
