@@ -8104,7 +8104,7 @@ body,
 	object-position: center 40%;
 	border: 6px solid #fff;
 	border-radius: 50%;
-	filter: grayscale(1) contrast(1.06);
+	/* filter: grayscale(1) contrast(1.06); */
 }
 .portrait-tag {
 	position: absolute;
