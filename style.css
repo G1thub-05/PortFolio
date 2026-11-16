@@ -1019,7 +1019,7 @@ a {
 	box-shadow: none;
 	object-fit: cover;
 	object-position: center 22%;
-	filter: grayscale(1) contrast(1.08);
+	/* filter: grayscale(1) contrast(1.08); */
 }
 .portrait-overline {
 	position: absolute;
@@ -4808,7 +4808,7 @@ body {
 	object-position: center 23%;
 	border: 0;
 	border-radius: 19px;
-	filter: grayscale(1);
+	/* filter: grayscale(1); */
 	box-shadow: none;
 }
 .portrait-overline {
@@ -6259,7 +6259,7 @@ html {
 	object-position: center 18%;
 	border: 0;
 	border-radius: 46% 46% 42% 42%;
-	filter: grayscale(1);
+	/* filter: grayscale(1); */
 	box-shadow: 0 25px 45px #1c355322;
 	mix-blend-mode: multiply;
 }
@@ -6581,7 +6581,7 @@ html {
 	transform: translateY(-2px);
 }
 .hero-photo {
-	filter: grayscale(100%) contrast(1.08) !important;
+	/* filter: grayscale(100%) contrast(1.08) !important; */
 	mix-blend-mode: normal !important;
 }
 .hero-socials .linkedin-mark {
@@ -9903,7 +9903,7 @@ body,
 	position: relative;
 }
 .footer .brand-icon img {
-	filter: grayscale(1) contrast(1.08);
+	/* filter: grayscale(1) contrast(1.08); */
 }
 .footer .brand-icon:after {
 	content: "";
