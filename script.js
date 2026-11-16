@@ -1,58 +1,82 @@
-async function getGithubStats() {
-	const username = "G1thub-05";
+// async function getGithubStats() {
+// 	const username = "G1thub-05";
 
+// 	try {
+// 		// Fetch public repositories
+// 		const response = await fetch(
+// 			`https://api.github.com/users/${username}/repos?per_page=100`,
+// 		);
+
+// 		if (!response.ok) {
+// 			throw new Error("Failed to fetch repositories");
+// 		}
+
+// 		const repos = await response.json();
+
+// 		// Total repositories
+// 		document.getElementById("github-repos").textContent = repos.length;
+
+// 		// Total stars
+// 		const totalStars = repos.reduce(
+// 			(total, repo) => total + repo.stargazers_count,
+// 			0,
+// 		);
+
+// 		document.getElementById("github-stars").textContent = totalStars;
+
+// 		// Total commits across default branches
+// 		let totalCommits = 0;
+
+// 		for (const repo of repos) {
+// 			const commitResponse = await fetch(
+// 				`https://api.github.com/repos/${username}/${repo.name}/commits?per_page=1`,
+// 			);
+
+// 			if (!commitResponse.ok) continue;
+
+// 			const linkHeader = commitResponse.headers.get("Link");
+
+// 			if (linkHeader) {
+// 				const lastPage = linkHeader.match(/[?&]page=(\d+)>;\s*rel="last"/);
+
+// 				totalCommits += lastPage ? Number(lastPage[1]) : 1;
+// 			} else {
+// 				const commits = await commitResponse.json();
+// 				totalCommits += commits.length;
+// 			}
+// 		}
+
+// 		document.getElementById("github-commits").textContent = totalCommits;
+// 	} catch (error) {
+// 		console.error("GitHub Stats Error:", error);
+// 	}
+// }
+
+// getGithubStats();
+
+
+async function getGithubStats() {
 	try {
-		// Fetch public repositories
-		const response = await fetch(
-			`https://api.github.com/users/${username}/repos?per_page=100`,
-		);
+		const response = await fetch("./github-stats.json", {
+			cache: "no-store",
+		});
 
 		if (!response.ok) {
-			throw new Error("Failed to fetch repositories");
+			throw new Error("Failed to load GitHub statistics");
 		}
 
-		const repos = await response.json();
-
-		// Total repositories
-		document.getElementById("github-repos").textContent = repos.length;
-
-		// Total stars
-		const totalStars = repos.reduce(
-			(total, repo) => total + repo.stargazers_count,
-			0,
-		);
-
-		document.getElementById("github-stars").textContent = totalStars;
-
-		// Total commits across default branches
-		let totalCommits = 0;
-
-		for (const repo of repos) {
-			const commitResponse = await fetch(
-				`https://api.github.com/repos/${username}/${repo.name}/commits?per_page=1`,
-			);
-
-			if (!commitResponse.ok) continue;
-
-			const linkHeader = commitResponse.headers.get("Link");
-
-			if (linkHeader) {
-				const lastPage = linkHeader.match(/[?&]page=(\d+)>;\s*rel="last"/);
-
-				totalCommits += lastPage ? Number(lastPage[1]) : 1;
-			} else {
-				const commits = await commitResponse.json();
-				totalCommits += commits.length;
-			}
-		}
-
-		document.getElementById("github-commits").textContent = totalCommits;
+		const stats = await response.json();
+		document.getElementById("github-repos").textContent = stats.repositories;
+		document.getElementById("github-stars").textContent = stats.stars;
+		document.getElementById("github-commits").textContent = stats.commits;
+		console.log("GitHub Stats Loaded:", stats);
 	} catch (error) {
 		console.error("GitHub Stats Error:", error);
 	}
 }
 
 getGithubStats();
+
 
 const menuButton = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".nav-links");
